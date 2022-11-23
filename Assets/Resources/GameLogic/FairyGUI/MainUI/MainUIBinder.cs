@@ -14,6 +14,7 @@ namespace MainUI
             UIObjectFactory.SetPackageItemExtension(UI_CharacterFrame.URL, typeof(UI_CharacterFrame));
             UIObjectFactory.SetPackageItemExtension(UI_BagBoxUp.URL, typeof(UI_BagBoxUp));
             UIObjectFactory.SetPackageItemExtension(UI_ButtonStyle1.URL, typeof(UI_ButtonStyle1));
+            UIObjectFactory.SetPackageItemExtension(UI_BagBoxDown.URL, typeof(UI_BagBoxDown));
         }
     }
 }
