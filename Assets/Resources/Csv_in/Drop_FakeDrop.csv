@@ -1,0 +1,94 @@
+ID,DropID,RandNum,JumpDrop,EN
+1001,1507,1,1002,NEMO
+1002,1501,1,1003,Mineral
+1003,1502,1,1004,Iron
+1004,1504,1,1005,Oil
+1005,1503,1,1006,Electricity
+1006,1508,1,1007,Stamina
+1007,1501,1,1008,Omnishard
+1008,1508,1,1009,Alliance Coin
+1009,1502,1,1010,Commander EXP
+1010,1504,1,1011,Hero EXP
+1011,1505,1,1012,Move Point
+1012,1508,1,1013,Mastery Points
+1013,1503,1,1014,VIP EXP
+1014,1508,1,1015,Ammor
+1015,1501,1,1016,Energy
+1016,1504,1,1017,EXP Potion
+1017,1502,1,1018,Hero Shape
+1018,1508,1,1019,Telescope
+1019,1505,1,1020,Blue hero Chest
+1020,1508,1,1021,Basic Material Chest
+1021,1503,1,1022,Intermediate Material Chest
+1022,1506,1,1023,Advanced Material Chest
+1023,1504,1,1024,Newbie Teleportation
+1024,1501,1,1025,Random Teleportation
+1025,1508,1,1026,Designated Teleportation
+1026,1506,1,1027,Territorial Teleportation
+1027,1502,1,1028,Recover {0} Move Points
+1028,1508,1,1029,Recover {0} Stamina
+1029,1505,1,1030,{0} Commander EXP
+1030,1503,1,1031,VIP EXP 1000
+1031,1504,1,1032,"Reduce, building, time by 20%"
+1032,1501,1,1033,Reduce researching time by 20%
+1033,1506,1,1034,Increase available EXP by 25%
+1034,1508,1,1035,Increase collecting speed by 50%
+1035,1502,1,1036,Increase collecting speed by 50%
+1036,1505,1,1037,Increase collecting speed by 100%
+1037,1508,1,1038,Reduce soldier training time by 20%
+1038,1506,1,1039,VIP3 EXP Card
+1039,1503,1,1040,Recall Troops
+1040,1504,1,1041,Rename Card
+1041,1501,1,1042,Talent Chip
+1042,1506,1,1043,{0} Mineral
+1043,1508,1,1044,{0} Iron
+1044,1502,1,1045,{0} fuel
+1045,1505,1,1046,{0} Electricity
+1046,1508,1,1047,{0} NEMO
+1047,1503,1,1048,{0} Mineral Boost
+1048,1506,1,1049,{0} Iron Boost
+1049,1504,1,1050,{0} Oil Boost
+1050,1501,1,1051,{0} Electricity Boost
+1051,1508,1,1052,Boost for 1 minute
+1052,1505,1,1053,Boost for {0} minutes
+1053,1502,1,1054,Boost for {0} hours
+1054,1508,1,1055,Boost for {0} days
+1055,1503,1,1056,Build boost for 1 minute
+1056,1506,1,1057,Build boost for {0} minutes
+1057,1504,1,1058,Build boost for {0} hours
+1058,1501,1,1059,Build boost for {0} days
+1059,1508,1,1060,Research boost for 1 minute
+1060,1505,1,1061,Research boost for {0} minutes
+1061,1506,1,1062,Research boost for {0} hours
+1062,1502,1,1063,Research boost for {0} days
+1063,1508,1,1064,Train Troops/Heal Boost for 1 minute
+1064,1503,1,1065,Train Troops/Heal boost for {0} minutes
+1065,1506,1,1066,Train Troops/Heal boost for {0} hours
+1066,1504,1,1067,Train Troops/Heal boost for {0} days
+1067,1505,1,1068,Shield for {0} hours
+1068,1508,1,1069,Shield for {0} days
+1069,1501,1,1070,Newbie's Protection
+1070,1502,1,1071,Decrease march time by {0}
+1071,1508,1,1072,Anti Scout for 24 hours
+1072,1503,1,1073,Anti Scout for 7 days
+1073,1505,1,1074,1.5 - 2.5 Troops Multiplier for Scout
+1074,1504,1,1075,Increase Troop Scale upper limit by {0}
+1075,1501,1,1076,Reduce salary by {0}
+1076,1506,1,1077,Increase total ATK by 5%
+1077,1508,1,1078,Increase Group DEF by 5%
+1078,1502,1,1079,Increase total ATK by 5%
+1079,1508,1,1080,Increase Group DEF by 5%
+1080,1503,1,1081,{0} VIP EXP
+1081,1505,1,1057,Alliance Upgrade Giftpack
+301,1403,1,301,Collection Gift
+302,1403,1,302,Recharge Gift
+303,1402,1,303,Intelligence
+304,1402,1,304,Seal
+305,1402,1,305,Recruit Sight
+306,1402,1,306,Mold
+307,1402,1,307,Fountain Pen
+308,1402,1,308,Military Watch
+309,1402,1,309,Private Sight
+310,1402,1,310,Corporal Sight
+311,1402,1,311,Sergeant Sight
+312,1402,1,312,Captain Sight
