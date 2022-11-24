@@ -9,7 +9,7 @@ namespace MainUI
     {
         public GImage m_bg;
         public UI_CharacterFrame m_frame1;
-        public UI_BagBoxUp m_frame2;
+        public UI_BagFrame m_frame2;
         public GButton m_exitBtn;
         public const string URL = "ui://8cf5amhlhx1a2b";
 
@@ -24,7 +24,7 @@ namespace MainUI
 
             m_bg = (GImage)GetChildAt(0);
             m_frame1 = (UI_CharacterFrame)GetChildAt(1);
-            m_frame2 = (UI_BagBoxUp)GetChildAt(2);
+            m_frame2 = (UI_BagFrame)GetChildAt(2);
             m_exitBtn = (GButton)GetChildAt(3);
         }
     }

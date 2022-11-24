@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using FairyGUI;
+using MainUI;
 
 public class MainWindow : BaseWindow
 {
-    GComponent window;
+    UI_MainUIWindow win;
 
-    public override void Open(){
-        Debug.Log("MainWindow.Open");
-
+    public void Show(){
+        win = new UI_MainUIWindow();
+        GRoot.inst.AddChild(win);
     }
 }
