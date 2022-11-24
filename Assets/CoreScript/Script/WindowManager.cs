@@ -1,11 +1,13 @@
 using System;
+using System.Collections.Generic;
+using FairyGUI;
 using UnityEngine;
 
 public enum UILayer{
     Main,
-    Layer2,
-    Popup,
     HUD,
+    Popup,
+    Tutorial,
 }
 
 public enum WindowID{
@@ -14,6 +16,24 @@ public enum WindowID{
 }
 
 public class WindowManager : MonoSingleton<WindowManager> {
+    private Dictionary<string, GComponent> gDict;
+    public GComponent layerMain;
+    public GComponent layerHud;
+    public GComponent layerPopup;
+    public GComponent layerTutorial;
+
+    public void Init(){
+        //Add GRoot;
+        AddLayer(UILayer.Main, 1);
+        AddLayer(UILayer.HUD, 101);
+        AddLayer(UILayer.Popup, 201);
+        AddLayer(UILayer.Tutorial, 301);
+    }
+
+    private void AddLayer(UILayer layer, int sortingOrder){
+        // GComponent Glayer = new GComponent();
+        // Glayer.size = GRoot._inst.GetSiz
+    }
 
     public void OpenWindow(WindowID winID){
         BaseWindow win;

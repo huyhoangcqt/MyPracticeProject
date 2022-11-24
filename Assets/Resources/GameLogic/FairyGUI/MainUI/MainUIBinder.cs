@@ -15,6 +15,10 @@ namespace MainUI
             UIObjectFactory.SetPackageItemExtension(UI_BagBoxUp.URL, typeof(UI_BagBoxUp));
             UIObjectFactory.SetPackageItemExtension(UI_ButtonStyle1.URL, typeof(UI_ButtonStyle1));
             UIObjectFactory.SetPackageItemExtension(UI_BagBoxDown.URL, typeof(UI_BagBoxDown));
+            UIObjectFactory.SetPackageItemExtension(UI_inventoryBtn.URL, typeof(UI_inventoryBtn));
+            UIObjectFactory.SetPackageItemExtension(UI_mapBtn.URL, typeof(UI_mapBtn));
+            UIObjectFactory.SetPackageItemExtension(UI_achiveBtn.URL, typeof(UI_achiveBtn));
+            UIObjectFactory.SetPackageItemExtension(UI_equipmentBtn.URL, typeof(UI_equipmentBtn));
         }
     }
 }

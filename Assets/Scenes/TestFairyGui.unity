@@ -674,7 +674,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1441152391
 Transform:
   m_ObjectHideFlags: 0
@@ -702,7 +702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   packageName: MainUI
-  componentName: MainUI
+  componentName: MainUIWindow
   fitScreen: 0
   sortingOrder: 0
   packagePath: UI/FairyGUI/MainUI

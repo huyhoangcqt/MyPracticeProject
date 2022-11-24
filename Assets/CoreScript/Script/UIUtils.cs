@@ -22,8 +22,6 @@ public class UIUtils : Singleton<UIUtils>
         switch (layer){
             case UILayer.Main:
                 return root.main;
-            case UILayer.Layer2:
-                return root.layer2;
             case UILayer.Popup:
                 return root.popup;
             case UILayer.HUD:
