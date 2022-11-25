@@ -7,7 +7,7 @@ public class CoreManager : BaseManager
     protected override void Initialize()
     {
         base.Initialize();
-        gameObject.AddComponent<UIManager>();
+        // gameObject.AddComponent<UIManager>();
     }
 
     protected override void Setup()

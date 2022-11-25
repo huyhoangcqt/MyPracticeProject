@@ -435,6 +435,9 @@ namespace FairyGUI
         public static GObject CreateObject(string pkgName, string resName)
         {
             UIPackage pkg = GetByName(pkgName);
+            if (pkg == null){
+                Debug.Log("pkg: " + pkgName + " = null");
+            }
             if (pkg != null)
                 return pkg.CreateObject(resName);
             else

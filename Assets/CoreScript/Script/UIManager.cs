@@ -18,7 +18,7 @@ public class UIManager : BaseManager
 
     #region  method
     private void LoadUI(){
-        WindowManager.Singleton.Init();
+        WinMgr.inst.Init();
         // UIPackage.AddPackage("UI/FairyGUI/mainui/MainUI");
         // WindowManager.Singleton.OpenWindow(WindowID.MainWindow);
     }

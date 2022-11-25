@@ -8,7 +8,7 @@ public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
 {
     private static T _instance = null;
 
-    public static T Singleton 
+    public static T inst 
     {
         get {
             if (_instance == null){
@@ -30,5 +30,9 @@ public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
             };
             return _instance;
         }
+    }
+
+    private void Awake() {
+        _instance = this as T;
     }
 }
